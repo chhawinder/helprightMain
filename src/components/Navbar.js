@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid mx-5">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="https://chhawinder.github.io/helprightMain/">
           HelpRight
         </a>
         <button
@@ -22,11 +22,6 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="#">
                 About
               </a>
@@ -36,11 +31,7 @@ function Navbar() {
                 Services
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
-              </a>
-            </li>
+           
           </ul>
           <ul className="navbar-nav navbar-right">
             <li className="nav-item">
