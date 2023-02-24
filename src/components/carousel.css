@@ -4,6 +4,8 @@
     height: 530px;
     overflow: hidden;
     left:550px;
+    display: flex;
+    animation: fade 6s infinite;
   }
   
   .carousel img {
@@ -74,5 +76,20 @@
   
   .carousel .inactive {
     opacity: 0;
+  }
+
+  @keyframes fade{
+    0% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   
